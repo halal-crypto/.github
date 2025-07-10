@@ -21,11 +21,11 @@
 
 # TODO
 ## Предварительные ресёчи 3h
-- проверяем как парсить https://jup.ag 0.5
-- проверяем как парсить https://1inch.io 0.5
-- фиксируем список CEX + DEX (в зависимости от результатов шагов выше) 0.5 
-- проверяем какие биржи поддерживает [CCXT](https://github.com/ccxt/ccxt/wiki/Manual) 0.5
-- фиксируем список сетей и монет 1
+- [x] проверяем как парсить https://jup.ag 0.5 [price v3 api](https://dev.jup.ag/docs/price-api/v3)
+- [x] проверяем как парсить https://1inch.io 0.5 [spot price api](https://portal.1inch.dev/documentation/apis/spot-price/introduction)
+- [ ] фиксируем список CEX + DEX (в зависимости от результатов шагов выше) 0.5 
+- [ ] проверяем какие биржи поддерживает [CCXT](https://github.com/ccxt/ccxt/wiki/Manual) 0.5
+- [ ] фиксируем список сетей и монет 1
 
 ## Сборщик котировок 14h
 - собираем данные с пары CEX так быстро как можем (вебсокет?) через CCXT 3
